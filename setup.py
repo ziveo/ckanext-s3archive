@@ -14,7 +14,7 @@ setup(
 	url='',
 	license='',
 	packages=find_packages(exclude=['ez_setup', 's3archives', 'tests']),
-	namespace_packages=['ckanext', 'ckanext.s3archive'],
+# 	namespace_packages=['ckanext', 'ckanext.s3archive'],
 	include_package_data=True,
 	zip_safe=False,
 	install_requires=['boto'],
